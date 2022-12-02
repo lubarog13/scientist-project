@@ -8,6 +8,8 @@ import * as directives from "vuetify/directives";
 import { aliases, mdi } from "vuetify/iconsets/mdi";
 import VueAnimateOnScroll from "vue3-animate-onscroll";
 
+export const publicDomain = '/scientist-project/';
+
 const vuetify = createVuetify({
   components,
   directives,

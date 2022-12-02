@@ -1,3 +1,5 @@
+import {publicDomain} from "@/main";
+
 export default {
     data() {
         return {
@@ -22,7 +24,7 @@ export default {
                         </ul>
                     </div>
                     <div class="content-right">
-                        <img src="/images/alferov_gh_i.jpg" alt="Жорес Алферов"/>
+                        <img src="${publicDomain}images/alferov_gh_i.jpg" alt="Жорес Алферов"/>
                     </div>
                 `,
                 `
@@ -34,7 +36,7 @@ export default {
                         </ul>
                     </div>
                     <div class="content-right">
-                        <img src="/images/8.jpg" alt="Жорес Алферов"/>
+                        <img src="${publicDomain}images/8.jpg" alt="Жорес Алферов"/>
                     </div>
                 `,
                 `
@@ -47,7 +49,7 @@ export default {
                         </p>
                     </div>
                     <div class="content-right">
-                        <img src="/images/Van-der-vaalsovy-geterostruktury.-Istochnik_-DOI_-10.1021_acs.nanolett.7b01248.jpg" alt="Гетероструктуры"/>
+                        <img src="${publicDomain}images/Van-der-vaalsovy-geterostruktury.-Istochnik_-DOI_-10.1021_acs.nanolett.7b01248.jpg" alt="Гетероструктуры"/>
                     </div>
                 `,
                 `
@@ -57,7 +59,7 @@ export default {
                         </p>
                     </div>
                     <div class="content-right">
-                        <img src="/images/42f9644f65d8483b5631e.jpg" alt="Жорес Алферов"/>
+                        <img src="${publicDomain}images/42f9644f65d8483b5631e.jpg" alt="Жорес Алферов"/>
                     </div>
                 `,
                 `
@@ -72,7 +74,7 @@ export default {
                         </ul>
                     </div>
                     <div class="content-right">
-                        <img src="/images/1280x854-alferov-08-1.d79.jpg" alt="Жорес Алферов в молодости"/>
+                        <img src="${publicDomain}images/1280x854-alferov-08-1.d79.jpg" alt="Жорес Алферов в молодости"/>
                     </div>
                 `,
             ]
